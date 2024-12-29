@@ -1,19 +1,23 @@
-# 🎈 Blank app template
 
-A simple Streamlit app template for you to modify!
+# Prediksi PDRB Sektor Pertanian
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+Aplikasi ini dirancang untuk memprediksi PDRB sektor pertanian menggunakan seluruh data input dari dataset yang Anda unggah.
 
-### How to run it on your own machine
-
-1. Install the requirements
-
+## Cara Menjalankan
+1. Pastikan Python 3.8+ terinstal.
+2. Install dependensi dengan perintah:
    ```
-   $ pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
+3. Jalankan aplikasi Streamlit:
+   ```
+   streamlit run app.py
+   ```
+4. Sesuaikan parameter di sidebar untuk melihat prediksi.
 
-2. Run the app
+## Fitur
+- Prediksi PDRB berdasarkan input.
+- Visualisasi **Feature Importance**.
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Data
+Aplikasi menggunakan seluruh data dari dataset yang Anda unggah.
